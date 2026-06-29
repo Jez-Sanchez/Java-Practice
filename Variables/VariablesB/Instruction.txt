@@ -1,0 +1,18 @@
+Instructions:
+    Create 2 integer variables that stores a number given by the user
+    Then print out the computations of the:
+        -addition
+        -subtraction
+        -multiplication
+        -exponents
+        -division
+Objectives:
+    Use arithmetics and print statements to print out arithmetic calculations with 2 variables
+    Use the Scanner class to grab user input
+    Use Integer casting to convert the Scanner input to the correct data type
+    Use the math class to do more mathematical computations
+Skill:
+    Ability to import classes into your file
+    Ability to switch the data types of input to the desired one for computations
+    Ability to take advantage of the math class to make more mathematical computation without a lot
+

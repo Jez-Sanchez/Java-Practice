@@ -1,0 +1,8 @@
+In this project you are tasked to fix any syntax errors that are in the Main.java file
+Objectives:
+    Fix Syntax errors
+    Print All variables into the terminal with no errors
+Skills:
+    Knowledge of the different data types
+    Knowing the basic needs of creating a variable
+    Knowing how to end a line of code
