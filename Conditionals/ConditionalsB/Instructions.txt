@@ -1,0 +1,18 @@
+Instructions:
+    -You will be making another condition file where you are given a formula that will calculate 
+    the horizontal distance a game piece goes and checking based on the distance the robot is away 
+    from the goal whether the ball overshoots, undershoots, or swisses
+    -You will first create a CONSTANT variable that stores the distance 4.5 (inches)
+    -You will then grab 2 things from the user (User Input aka Scanner)
+        -Hood Angle (In degrees)
+        -Game Piece Speed (RPM/Rotations Per Minute)
+    -Afterwards you will use the following formula to calculate the horizontal distance that the ball travels
+        distance = (0.002626 * RPM) * Math.cos(Math.toRadians(HoodAngle))
+    -Now use conditionals that compares the distance that the ball traveled to the CONSTANT variable
+        -if the distance the ball travel is greater then it overshoots
+        -if the distance the ball travel is exactly at 4.5 then it swissed
+        -if the distance the ball travel is under 4.5 then it undershoots
+        -MAKE SURE to use print statements to output whether the game piece overshot, undershot, or made it
+Objectives:
+    -Understanding how to make a formula in code
+    -Getting familiar with conditionals

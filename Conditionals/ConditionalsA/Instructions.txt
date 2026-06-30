@@ -1,0 +1,15 @@
+Instructions:
+    -You will need to create a battery voltage reader where you
+        -Grab a random voltage from user input using Scanner
+        -Convert the input to a useable datatype
+        -Use conditions to check if the voltage is Battery High, Battery Mid, Battery Low
+            -If the voltage is greater than or equal to 12.0 it is High
+            -If the voltage is greater than or equal to 9.5 it is Mid
+            -If the voltage is less than 9.5 it is low
+    -I expect the code to take priority when it comes to checking the conditions for example:
+        If the voltage is 12.0 it checks the 12.0 and not 9.5 after
+        If not then check 9.5
+Objectives:
+    -Get familiar with the different ways to make if statements
+    -Ability to import a library to utilize in your project
+    -Understanding the different comparison operators that can be used in code
