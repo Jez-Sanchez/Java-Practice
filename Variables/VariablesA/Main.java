@@ -1,9 +1,9 @@
 public class Main{
     public static void main(String[] args) {
-        string teamName = SigmaC@T Robotics Team;
+        String teamName = SigmaC@T Robotics Team;
         int teamNumber = 108
-        int batteryVoltage = 12.6;
-        areWeTheOldestTeamInFlorida = true;
+        double batteryVoltage = 12.6;
+        boolean areWeTheOldestTeamInFlorida = true;
 
         //Print all of these variables below
         System.out.println(teamName);
