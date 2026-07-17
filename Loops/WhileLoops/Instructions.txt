@@ -1,0 +1,104 @@
+Instructions:
+    -You will be building up from Switch Case project where you will be making a program where
+    you ask the user which command to give the robot and the commands will be executed in sequential
+    order, given that conditions have been met..
+    For example:
+        If you start the program and select intake you will have to first drive to get fuel
+        If you try to shoot and there is no fuel in the robot then it will say it cannot shoot
+        etc.
+    -You will first create a variable that tells the program whether or not the user wants to continue
+    -You will then create 2 variables, one that stores where the robot is currently at,it will have 
+    2 locations GamePiece, and Goal. And the other will say if there are game pieces in the robot or
+    not (the amount of fuel does not matter, just whether or not it is inside)
+    -You will then make the while loop that stores the following things
+        -Asking the user which command they want to use
+        -Switch cases that matches the command
+            -Inside those commands you will check some conditions based on the tasked
+Objectives:
+    -Ability to use a while loop when it is necessary
+    -Ability to make sure the while loop has an exit
+    -Be able to use switch cases with if statements inside of them
+Example:
+Robot Booting.....
+Choose one of the commands:
+1.Drive
+2.Intake
+3.Shoot
+4.Climb
+5.Shut Down
+1
+Driving to get a game piece...
+At game piece locations
+Choose one of the commands:
+1.Drive
+2.Intake
+3.Shoot
+4.Climb
+5.Shut Down
+3
+...
+Cannot shoot
+Need to acquire game piece
+Choose one of the commands:
+1.Drive
+2.Intake
+3.Shoot
+4.Climb
+5.Shut Down
+2
+Intaking...
+Intaking Complete
+Choose one of the commands:
+1.Drive
+2.Intake
+3.Shoot
+4.Climb
+5.Shut Down
+3
+...
+Cannot shoot.. Need to go to goal location first
+Choose one of the commands:
+1.Drive
+2.Intake
+3.Shoot
+4.Climb
+5.Shut Down
+1
+Driving to goal location...
+Arrived at location...
+Choose one of the commands:
+1.Drive
+2.Intake
+3.Shoot
+4.Climb
+5.Shut Down
+3
+Shooting..
+Shooting Done
+Choose one of the commands:
+1.Drive
+2.Intake
+3.Shoot
+4.Climb
+5.Shut Down
+4
+Climbing...
+Climb Complete
+Choose one of the commands:
+1.Drive
+2.Intake
+3.Shoot
+4.Climb
+5.Shut Down
+5
+Shutting Down.. Goodbye:)
+
+KEY NOTES:
+    -When user selects
+        -Drive: Needs to check if there is game pieces or not, if not then drive to game piece,
+            if yes then drive to goal
+        -Intake: Checks if the robot is at GamePiece location, if not then say cannot intake, if yes
+            then intake
+        -Shoot: Check if the robot has fuel, if not then say cannot shoot, if yes then check if robot
+        is at Goal location, if yes then shoot, if not then say cannot shoot
+        -Climb: Just climb
