@@ -23,7 +23,7 @@ public class Main {
     public double exp(double w){
         double exp1;
 
-        exp1 = w*w;
+        exp1 = w*w; // not done yet
         return (exp1);
     }
 }
