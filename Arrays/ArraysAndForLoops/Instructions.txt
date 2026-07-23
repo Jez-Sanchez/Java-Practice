@@ -1,0 +1,30 @@
+Instructions:
+    -You will be creating a program where you store at least 10 random robotics teams numbers and 
+    with a for loop, print each robotics team number down. Afterwards you will then append 2-3 
+    more team numbers then sort them in numerical order
+    -First create an array that stores 12-13 integers
+    -You will then put 10 into the array
+    -Afterwards you will make a for loop that loops through the array and prints the teams number
+    -Afterwards you will add 2-3 more team numbers into the list then sort them using the sort function
+    -Repeat the for loop but this time do the opposite 
+    (if you did regular for loop the first time then do a for each loop and vice versa)
+        -For loop is a regular loop that counts based on integers (the elements position)
+        -For Each loop is just like a for loop but instead of storing the position it currently 
+        iterates it stores the element it is currently on
+Example Output:
+my_array = int[12]
+my_array.append(108)
+my_array.append(180)
+...
+my_array.append(2076)
+1. 108
+2. 180
+...
+10. 2076
+{append new number}
+{sort}
+1. 108
+2. 180
+...
+11. 2076
+12. 9019

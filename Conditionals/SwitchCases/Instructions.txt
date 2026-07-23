@@ -1,0 +1,17 @@
+Instructions:
+    -You will be making a program where you utilize switch case statements to switch between
+    different robot states
+    -First you will have get the user to select one of the options to command their robot
+        -Drive
+        -Intake
+        -Shoot
+        -Climb
+    -If the user selects Drive then it will say Driving
+    -If the user selects Intake then it will say Intaking
+    -If the user selects shoot then it will say shooting
+    -If the user selects Climb then it will say climbing
+Objectives:
+    -Be able to use switch cases to match a value to a variable, switch cases are used in case 
+    there are too many conditions to check 
+    -Use the Scanner class for user input
+    -Be able to use the break keyword
