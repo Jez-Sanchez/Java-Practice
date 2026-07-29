@@ -6,8 +6,7 @@ public static void main(String[]args) {
  Scanner scanner = new Scanner(System.in);
  System.out.println("Select an option");   
  String option = scanner.nextLine();
- scanner.close();
-}
+
 
 switch (option){
     case "Drive":
@@ -25,4 +24,6 @@ switch (option){
     default:
     System.out.println("Option not found, please try again");
     }
+scanner.close();
+}
 }
