@@ -7,8 +7,6 @@ public static void main(String[]args) {
     System.out.println("Enter your voltage number");
     double voltage = scanner.nextDouble();
 
-    scanner.close();
-}
 
     if (voltage >= 12.0) {
 System.out.println("Batterry High");
@@ -18,4 +16,6 @@ System.out.println("Battery Mid");
 System.out.println("Battery Low");
     }
 
+    scanner.close();
+}
 }
