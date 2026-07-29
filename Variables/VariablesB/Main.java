@@ -12,8 +12,6 @@ public class Main {
     System.out.println("Enter another number");
     int num1 = input.nextInt();
 
-
-    input.close();
     
     System.out.println(num + num1);
     System.out.println(num - num1);
@@ -21,6 +19,8 @@ public class Main {
     System.out.println(num / num1);
     int result = (int) Math.pow(num, num1);
     System.out.println(result);
+
+    input.close();
  }
 
 }
