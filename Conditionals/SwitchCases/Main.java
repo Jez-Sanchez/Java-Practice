@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
 public static void main(String[]args) {
  Scanner scanner = new Scanner(System.in);
- System.out.println("Select an option");   
+ System.out.println("Select an option: Drive, Intake, Shoot, Climb");   
  String option = scanner.nextLine();
 
 
@@ -18,7 +18,7 @@ switch (option){
     case "Shoot":
     System.out.println("Shooting...");
     break;
-    case"Climb":
+    case "Climb":
     System.out.println("Climbing...");
     break;
     default:
