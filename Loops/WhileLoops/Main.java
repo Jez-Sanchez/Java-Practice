@@ -11,7 +11,6 @@ while (userContinue) {
 System.out.println("Choose a command: 1.Drive 2.Intake 3.Shoot 4.Climb 5.Shut Down");
 int command = scanner.nextInt();
 
-// code works fine, but doesn't trigger anything that is false whatsover..
 switch (command) {
 case 1:
 if (haveGamePieces) {
@@ -37,7 +36,7 @@ System.out.println("Climbing!");
 break;
 case 5:
 System.out.println("Shutting Down!");
-scanner.close(); // this causes the code to break...not sure why nor how to fix D:
+break;
        }
     }
   }
