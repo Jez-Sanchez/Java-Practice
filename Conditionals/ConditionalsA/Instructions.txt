@@ -1,6 +1,6 @@
 Instructions:
     -You will need to create a battery voltage reader where you
-        -Grab a inputed voltage from user input using Scanner
+        -Grab a inputed voltage from user input using Scanner                                   ch
         -Convert the input to a useable datatype
         -Use conditions to check if the voltage is Battery High, Battery Mid, Battery Low
             -If the voltage is greater than or equal to 12.0 it is High

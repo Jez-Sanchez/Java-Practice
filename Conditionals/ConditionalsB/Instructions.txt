@@ -14,5 +14,5 @@ Instructions:
         -if the distance the ball travel is under 4.5 then it undershoots
         -MAKE SURE to use print statements to output whether the game piece overshot, undershot, or made it
 Objectives:
-    -Understanding how to make a formula in code
+    -Understanding how to make a formula in code (ngl this might be a issue i need to improve on alot)
     -Getting familiar with conditionals
