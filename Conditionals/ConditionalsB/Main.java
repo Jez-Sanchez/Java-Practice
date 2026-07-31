@@ -14,7 +14,8 @@ public static void main(String[]args) {
     System.out.println("Enter your Game Piece Speed (Rotations per Minute)");
     int gameRPM = scanner.nextInt();
 
-
+scanner.close();
+}
 //Equation
 double distance = (0.002626 * RPM) * Math.cos(Math.toRadians(HoodAngle));
 
@@ -27,8 +28,7 @@ if (distance > constant) {
     System.out.println("You Undershot It!!");
 }
 
-    scanner.close();
-}
+
 }
 // You will be making and if, else if , 
 //and else condition

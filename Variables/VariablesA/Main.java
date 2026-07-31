@@ -1,7 +1,7 @@
 public class Main{
     public static void main(String[] args) {
-        String teamName = SigmaC@T Robotics Team;
-        int teamNumber = 108
+        String teamName = "SigmaC@T Robotics Team";
+        int teamNumber = 108;
         double batteryVoltage = 12.6;
         boolean areWeTheOldestTeamInFlorida = true;
 
