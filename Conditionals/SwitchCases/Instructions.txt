@@ -15,3 +15,5 @@ Objectives:
     there are too many conditions to check 
     -Use the Scanner class for user input
     -Be able to use the break keyword
+
+    laziest posable wa
