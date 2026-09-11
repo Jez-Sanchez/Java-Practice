@@ -4,14 +4,19 @@ public class Main {
     public static void main(String[] args) {
         final double distance = 4.5;
         Scanner sc = new Scanner(System.in);
-        distance = (0.002626 * RPM) * Math.cos(Math.toRadians(HoodAngle));
+        horizontalDistance = (0.002626 * RPM) * Math.cos(Math.toRadians(hoodAngle));
         System.out.println("Enter the Hood Angle (In degress)");
         sc.nextInt();
-        System.out.println("Enter the Game Piece Speed);
+        System.out.println("Enter the Game Piece Speed");
         sc.nextInt();
         if (distance > 4.5) {
             System.out.println("The ball overshoots");
-            if (
+            if (distance = 4.5) {
+                System.out.println("The ball has swissed");
+                if (distance < 4.5) {
+                    System.out.println("The ball undershoots");
+                } 
+            }
         }
     }
 }
