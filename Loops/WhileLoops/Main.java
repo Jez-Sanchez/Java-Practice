@@ -1,5 +1,6 @@
 package Loops.WhileLoopsA;
 
+import java.util.Scanner;
 public class Main {
     public static void Main(String[] args) {
         String choice = "Would you like to continue?";
@@ -33,7 +34,7 @@ public class Main {
                 case 5:
                     System.out.println("Shutting down... goodbye");
                     break;
-                    sc.clsoe();
+                    sc.close();
             }
         }
         
@@ -41,4 +42,3 @@ public class Main {
     
 }
 
-}
