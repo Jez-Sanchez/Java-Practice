@@ -27,6 +27,8 @@ class Main {
                 System.out.println("");
                 break;
             case 4
+                System.out.println("");
+                break;
         }
     }
 }
